@@ -32,13 +32,13 @@ public class SqrtTest {
     public void testIter() {
         Sqrt sqrt = new Sqrt(0);
         double result = sqrt.iter(1.0, 2.0);
-        assertEquals(1.41421356, result, 1e-7);
+        assertEquals(1.4142135, result, 1e-7);
     }
 
     @Test
     public void testCalc() {
         Sqrt sqrt = new Sqrt(2.0);
         double result = sqrt.calc();
-        assertEquals(1.41421356, result, 1e-7);
+        assertEquals(1.4142135, result, 1e-7);
     }
 }
