@@ -23,14 +23,14 @@ public class SqrtTest {
 
     @Test
     public void testImprove() {
-        Sqrt sqrt = new Sqrt(2.0);
+        Sqrt sqrt = new Sqrt(0);
         double result = sqrt.improve(1.0, 2.0);
         assertEquals(1.5, result, 1e-7);
     }
 
     @Test
     public void testIter() {
-        Sqrt sqrt = new Sqrt(2.0);
+        Sqrt sqrt = new Sqrt(0);
         double result = sqrt.iter(1.0, 2.0);
         assertEquals(1.41421356, result, 1e-7);
     }
